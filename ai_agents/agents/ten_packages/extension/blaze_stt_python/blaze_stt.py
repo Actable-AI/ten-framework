@@ -6,8 +6,7 @@ This extension wraps the Blaze STT API endpoint for use in TEN framework.
 
 import os
 import logging
-from typing import Optional, Dict, Any, BinaryIO, Union
-from io import BytesIO
+from typing import Optional, Dict, Any, Union
 
 import httpx
 from pydantic import BaseModel, Field
